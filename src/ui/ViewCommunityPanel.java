@@ -13,7 +13,7 @@ import model.SystemAdmin;
 
 /**
  *
- * @author adityaraj
+ * @author aniruddha
  */
 public class ViewCommunityPanel extends javax.swing.JPanel {
 
