@@ -81,6 +81,8 @@ public class HospitalAdminPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.CardLayout());
 
+        hospitalAdminLoginPanel.setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Hospital Admin Login");
 
         jLabel2.setText("Username");

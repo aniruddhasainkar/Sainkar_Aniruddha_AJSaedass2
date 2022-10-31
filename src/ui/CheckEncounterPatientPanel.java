@@ -42,6 +42,8 @@ public class CheckEncounterPatientPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblEncounters = new javax.swing.JTable();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Check Encounter");
 
         tblEncounters.setModel(new javax.swing.table.DefaultTableModel(
