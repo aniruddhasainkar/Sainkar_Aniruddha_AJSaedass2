@@ -75,6 +75,8 @@ public class ViewDoctorPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         txtDoctorId = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Doctors");
 
         tblDoctors.setModel(new javax.swing.table.DefaultTableModel(

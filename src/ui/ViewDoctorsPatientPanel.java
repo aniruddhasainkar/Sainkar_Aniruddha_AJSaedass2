@@ -44,6 +44,8 @@ public class ViewDoctorsPatientPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblDoctorsList = new javax.swing.JTable();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Doctors Near You");
 
         tblDoctorsList.setModel(new javax.swing.table.DefaultTableModel(

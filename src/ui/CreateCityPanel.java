@@ -40,6 +40,8 @@ public class CreateCityPanel extends javax.swing.JPanel {
         txtCityState = new javax.swing.JTextField();
         btnSaveCity = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Create City");
 
         lblCityName.setText("City Name");

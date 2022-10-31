@@ -48,6 +48,8 @@ public class ViewCityPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         txtCityId = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View City ");
 
         tblCities.setModel(new javax.swing.table.DefaultTableModel(

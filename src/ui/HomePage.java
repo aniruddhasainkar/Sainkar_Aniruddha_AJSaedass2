@@ -44,6 +44,8 @@ public class HomePage extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        controlPanel.setBackground(new java.awt.Color(255, 255, 204));
+
         btnDoctor.setText("Doctor");
         btnDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,6 +115,7 @@ public class HomePage extends javax.swing.JFrame {
 
         splitPaneMainPage.setLeftComponent(controlPanel);
 
+        viewPanel.setBackground(new java.awt.Color(255, 255, 204));
         viewPanel.setName("viewPanel"); // NOI18N
 
         javax.swing.GroupLayout viewPanelLayout = new javax.swing.GroupLayout(viewPanel);

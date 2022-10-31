@@ -55,6 +55,8 @@ public class ViewHospitalPanelSystemAdmin extends javax.swing.JPanel {
         btnSaveHospital = new javax.swing.JButton();
         btnDeleteHospital = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         lblHospitalName.setText("Hospital Name");
 
         lblHospitalphoneNumber.setText("Hospital Phone Number");

@@ -74,6 +74,8 @@ public class ViewPatientPanel extends javax.swing.JPanel {
         btnSavePatient = new javax.swing.JButton();
         txtPatientPassword = new javax.swing.JPasswordField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Patients");
 
         tblPatientDirectory.setModel(new javax.swing.table.DefaultTableModel(

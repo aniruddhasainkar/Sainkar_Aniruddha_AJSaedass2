@@ -57,6 +57,8 @@ public class DoctorPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.CardLayout());
 
+        jPanelDoctorLoginPanel.setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel2.setText("Doctor Login");
 
         jLabel3.setText("Username");

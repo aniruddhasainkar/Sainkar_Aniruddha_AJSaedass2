@@ -74,6 +74,8 @@ public class ViewPatientPanelSystemAdmin extends javax.swing.JPanel {
         txtPatientUsername = new javax.swing.JTextField();
         btnDeletePatient = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         lblPatientHeight.setText("Height");
 
         tblPatientDirectory.setModel(new javax.swing.table.DefaultTableModel(

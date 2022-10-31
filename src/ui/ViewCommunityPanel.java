@@ -51,6 +51,8 @@ public class ViewCommunityPanel extends javax.swing.JPanel {
         lblCommunityId = new javax.swing.JLabel();
         txtCommunityId = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Community");
 
         tblCommunities.setModel(new javax.swing.table.DefaultTableModel(

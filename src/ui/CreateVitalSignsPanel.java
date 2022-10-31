@@ -54,6 +54,8 @@ public class CreateVitalSignsPanel extends javax.swing.JPanel {
         txtRespirationRate = new javax.swing.JTextField();
         btnSaveVitalSign = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Create Vital Signs");
 
         jLabel2.setText("Patient");

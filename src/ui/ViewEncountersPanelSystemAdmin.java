@@ -60,6 +60,8 @@ public class ViewEncountersPanelSystemAdmin extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         btnDeleteEncounter = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel5.setText("Encounter Id");
 
         tblEncounters.setModel(new javax.swing.table.DefaultTableModel(

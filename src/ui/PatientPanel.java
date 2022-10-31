@@ -56,7 +56,7 @@ public class PatientPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.CardLayout());
 
-        PatientLoginPanel.setBackground(new java.awt.Color(255, 51, 102));
+        PatientLoginPanel.setBackground(new java.awt.Color(204, 255, 204));
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Patient Login");

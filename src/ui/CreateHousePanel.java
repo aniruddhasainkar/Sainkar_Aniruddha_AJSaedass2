@@ -46,6 +46,8 @@ public class CreateHousePanel extends javax.swing.JPanel {
         lblHouseCommunity = new javax.swing.JLabel();
         btnSaveHouse = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Create House");
 
         lblHouseStreetAddress.setText("Street Address");

@@ -67,6 +67,8 @@ public class CreateDoctorPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         txtDoctorSpecialisation = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Add Doctor");
 
         lblDoctorPassword.setText("Password");

@@ -48,6 +48,8 @@ public class AddEncounterPanelDoctor extends javax.swing.JPanel {
         jComboBoxPatient = new javax.swing.JComboBox<>();
         jLabel4 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Add Encounter");
 
         btnAddEncounter.setText("Add Encounter");

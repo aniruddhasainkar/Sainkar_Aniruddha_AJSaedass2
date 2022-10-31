@@ -53,6 +53,8 @@ public class ViewHousePanel extends javax.swing.JPanel {
         lblHouseId = new javax.swing.JLabel();
         txtHouseId = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Houses");
 
         tblHouses.setModel(new javax.swing.table.DefaultTableModel(

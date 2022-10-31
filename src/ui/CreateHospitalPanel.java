@@ -45,6 +45,8 @@ public class CreateHospitalPanel extends javax.swing.JPanel {
         jComboBoxHospitalCommunity = new javax.swing.JComboBox<>();
         btnSaveHospital = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Create Hospital");
 
         lblHospitalName.setText("Hospital Name");

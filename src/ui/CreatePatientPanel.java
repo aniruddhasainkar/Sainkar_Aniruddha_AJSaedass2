@@ -68,6 +68,8 @@ public class CreatePatientPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jComboBoxHouses = new javax.swing.JComboBox<>();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         lblpersonalDetails.setText("Personal Details");
 
         lblPatientName.setText("Name");

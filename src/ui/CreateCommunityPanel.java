@@ -42,6 +42,8 @@ public class CreateCommunityPanel extends javax.swing.JPanel {
         txtCommunityName = new javax.swing.JTextField();
         jComboBoxCities = new javax.swing.JComboBox<>();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         btnSaveCommunity.setText("Save Community");
         btnSaveCommunity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

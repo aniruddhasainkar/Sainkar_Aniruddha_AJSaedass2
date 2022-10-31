@@ -72,6 +72,8 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
 
         setLayout(new java.awt.CardLayout());
 
+        communityAdminLoginPanel.setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Community Login");
 
         lblCommunityAdminUsername.setText("Username");
@@ -104,7 +106,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, communityAdminLoginPanelLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
                         .addComponent(btnCommunityAdminLogin)))
-                .addContainerGap(451, Short.MAX_VALUE))
+                .addContainerGap(463, Short.MAX_VALUE))
         );
         communityAdminLoginPanelLayout.setVerticalGroup(
             communityAdminLoginPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -160,7 +162,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
                 .addComponent(btnCommunityDirectory)
                 .addGap(73, 73, 73)
                 .addComponent(btnHouseDirectory)
-                .addContainerGap(241, Short.MAX_VALUE))
+                .addContainerGap(216, Short.MAX_VALUE))
         );
         controlPanelCommunityAdminLayout.setVerticalGroup(
             controlPanelCommunityAdminLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -221,7 +223,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
         viewPanelCityDirectory.setLayout(viewPanelCityDirectoryLayout);
         viewPanelCityDirectoryLayout.setHorizontalGroup(
             viewPanelCityDirectoryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 823, Short.MAX_VALUE)
+            .addGap(0, 782, Short.MAX_VALUE)
         );
         viewPanelCityDirectoryLayout.setVerticalGroup(
             viewPanelCityDirectoryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -236,7 +238,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
             cityDirectoryPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(cityDirectoryPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(splitPaneCityDirectory))
+                .addComponent(splitPaneCityDirectory, javax.swing.GroupLayout.DEFAULT_SIZE, 887, Short.MAX_VALUE))
         );
         cityDirectoryPanelLayout.setVerticalGroup(
             cityDirectoryPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -289,7 +291,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
         ViewPanelCommunityDirectory.setLayout(ViewPanelCommunityDirectoryLayout);
         ViewPanelCommunityDirectoryLayout.setHorizontalGroup(
             ViewPanelCommunityDirectoryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 782, Short.MAX_VALUE)
+            .addGap(0, 742, Short.MAX_VALUE)
         );
         ViewPanelCommunityDirectoryLayout.setVerticalGroup(
             ViewPanelCommunityDirectoryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -302,7 +304,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
         communityDirectoryPanel.setLayout(communityDirectoryPanelLayout);
         communityDirectoryPanelLayout.setHorizontalGroup(
             communityDirectoryPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(splitPaneCommunityDirectory)
+            .addComponent(splitPaneCommunityDirectory, javax.swing.GroupLayout.DEFAULT_SIZE, 893, Short.MAX_VALUE)
         );
         communityDirectoryPanelLayout.setVerticalGroup(
             communityDirectoryPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -369,7 +371,7 @@ public class CommunityAdminPanel_1 extends javax.swing.JPanel {
             .addGroup(houseDirectoryPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(splitPaneHouseDirectory, javax.swing.GroupLayout.PREFERRED_SIZE, 881, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(54, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         houseDirectoryPanelLayout.setVerticalGroup(
             houseDirectoryPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

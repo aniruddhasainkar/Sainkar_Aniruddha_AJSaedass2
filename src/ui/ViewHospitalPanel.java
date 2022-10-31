@@ -54,6 +54,8 @@ public class ViewHospitalPanel extends javax.swing.JPanel {
         lblHospitalId = new javax.swing.JLabel();
         txtHospitalId = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Hospitals");
 
         tblHospitals.setModel(new javax.swing.table.DefaultTableModel(
