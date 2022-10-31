@@ -58,6 +58,8 @@ public class ViewVitalSignsPanel extends javax.swing.JPanel {
         txtBloodPressure = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("View Vital Signs");
 
         tblVitalSigns.setModel(new javax.swing.table.DefaultTableModel(
